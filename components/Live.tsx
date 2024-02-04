@@ -16,7 +16,7 @@ import {
 import CursorChat from "./cursor/CursorChat";
 import LiveCursors from "./cursor/LiveCursors";
 import ReactionSelector from "./reaction/ReactionButton";
-import FlyingReaction from "./reaction/FLyingReaction";
+import FlyingReaction from "./reaction/FlyingReaction";
 import useInterval from "@/hooks/useInterval";
 
 const Live = () => {
