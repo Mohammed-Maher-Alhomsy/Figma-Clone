@@ -1,5 +1,6 @@
 import { BaseUserMeta, User } from "@liveblocks/client";
 import { Gradient, Pattern } from "fabric/fabric-impl";
+import React from "react";
 
 export enum CursorMode {
   Hidden,
@@ -165,6 +166,7 @@ export type CanvasSelectionCreated = {
   options: fabric.IEvent;
   isEditingRef: React.MutableRefObject<boolean>;
   setElementAttributes: React.Dispatch<React.SetStateAction<Attributes>>;
+  isEditingRef: React.MutableRefObject<boolean>;
 };
 
 export type CanvasObjectScaling = {
